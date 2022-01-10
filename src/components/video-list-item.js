@@ -14,15 +14,15 @@ const VideoListItem = (props) => {
             src={`${IMG_BASE_URL}${movie.poster_path}`}
             alt="Un film"
           />
-          <div className="media-body">
-            <h5 className="title-list-item">{movie.title}</h5>
-          </div>
+        </div>
+        <div className="media-body">
+          <h5 className="title-list-item">{movie.title}</h5>
         </div>
       </div>
     </li>
   );
   function handleOnClick() {
-    console.log("Pas du tout");
+    props.callback(movie);
   }
 };
 
