@@ -1,0 +1,9 @@
+li:hover {
+  background-color: #e0e0e0;
+}
+
+.title-list-item {
+  padding-top: 40px;
+  text-align: center;
+  cursor: pointer;
+}
